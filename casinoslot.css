@@ -1,0 +1,93 @@
+:root{
+    --speed:5;
+}
+
+#casin{
+    color: blueviolet;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 8vw;
+}
+
+
+body {
+    
+    background-color: black;
+}
+
+#win{
+    color: aqua;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 8vw;
+}
+#loos{
+    color: aqua;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 8vw;
+
+}
+
+
+
+.machine{
+    background-color: aqua;
+    height: 300px;
+    width: 800px;
+    margin-left: 350px;
+    margin-top: 50px;
+
+    display: flex;
+    text-align: center;
+      
+}
+
+.royce{
+
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    overflow: hidden;
+
+}
+
+#inpspeed{
+   margin-left: 20px;
+    width: 50px;
+}
+
+#start{
+    margin-left: 500px;
+    margin-top: 10px;
+    width : 100px;
+    background-color: aqua;
+    color: brown;
+}
+
+.small{
+    font-size: 50px;
+    
+    
+}
+
+
+@keyframes roll{
+    0%{
+        transform: translateY(-100px);
+    }
+   
+
+    100%{
+        transform: translateY(100px);
+    }
+}
